@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .section {
+        @apply flex items-center justify-center flex-col bg-white text-lg rounded-xl w-11/12 lg:w-6/12;
+    }
+    .h1-1 {
+        @apply text-custom-GrayishBlue text-xl p-5 border-b-custom-DarkGrayishBlue;
+    }
+    .p1-1 {
+        @apply text-custom-DarkGrayishBlue text-5xl pt-5 pb-8 border-b-2 w-11/12 text-center;
+    }
+    .p1-2 {
+        @apply text-custom-GrayishBlue p-5 border-b-2 w-11/12 text-center;
+    }
+    .p1-3 {
+        @apply text-white p-5 border-b-2 w-11/12 text-center;
+    }
+    .btn {
+        @apply p-3 mt-7 mb-7 w-11/12 text-white bg-custom-DarkGrayishBlue rounded-lg uppercase text-base bg-gradient-to-r from-custom-Grad1 to-custom-Grad2 hover:from-white hover:to-white hover:text-custom-Grad2 hover:border-2 border-custom-Grad2;
+    }
+}
