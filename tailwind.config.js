@@ -16,7 +16,9 @@ module.exports = {
           GrayishBlue: 'hsl(233, 13%, 49%)',
           DarkGrayishBlue: 'hsl(232, 13%, 33%)',
           Grad1: 'hsl(236, 72%, 79%)',
-          Grad2: 'hsl(237, 63%, 64%)'
+          Grad2: 'hsl(237, 63%, 64%)',
+          Grad3: 'hsl(234, 72%, 79%)',
+          Grad4: 'hsl(235, 63%, 64%)'
         },
       },
     },
