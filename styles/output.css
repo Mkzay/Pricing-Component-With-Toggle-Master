@@ -734,14 +734,14 @@ video {
   border-bottom-color: hsl(232 13% 33% / var(--tw-border-opacity));
 }
 
+.bg-custom-Grad2 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(237 63% 64% / var(--tw-bg-opacity));
+}
+
 .bg-custom-VeryLightGrayishBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(240 78% 98% / var(--tw-bg-opacity));
-}
-
-.bg-red-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -749,18 +749,24 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-custom-Grad1 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(236 72% 79% / var(--tw-bg-opacity));
-}
-
-.bg-custom-Grad2 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(237 63% 64% / var(--tw-bg-opacity));
+.bg-\[right__top\] {
+  background-color: right  top;
 }
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-top-pattern {
+  background-image: url('/images/bg-top.svg');
+}
+
+.bg-bottom-pattern {
+  background-image: url('/images/bg-bottom.svg');
+}
+
+.bg-\[url\(\'\/images\/bg-top\.svg\'\)\2c url\(\'\/images\/bg-bottom\.svg\'\)\] {
+  background-image: url('/images/bg-top.svg'),url('/images/bg-bottom.svg');
 }
 
 .from-custom-Grad1 {
@@ -771,6 +777,102 @@ video {
 
 .to-custom-Grad2 {
   --tw-gradient-to: hsl(237, 63%, 64%) var(--tw-gradient-to-position);
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-right-top {
+  background-position: right top;
+}
+
+.bg-left-bottom {
+  background-position: left bottom;
+}
+
+.bg-left-top {
+  background-position: left top;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-\[center_top_1rem\] {
+  background-position: center top 1rem;
+}
+
+.bg-\[center_top_4rem\] {
+  background-position: center top 4rem;
+}
+
+.bg-\[center_top_14rem\] {
+  background-position: center top 14rem;
+}
+
+.bg-\[right_top_1rem\] {
+  background-position: right top 1rem;
+}
+
+.bg-\[right_top_2rem\] {
+  background-position: right top 2rem;
+}
+
+.bg-\[right_top_7rem\] {
+  background-position: right top 7rem;
+}
+
+.bg-\[right_top_4rem\] {
+  background-position: right top 4rem;
+}
+
+.bg-\[right_top\] {
+  background-position: right top;
+}
+
+.bg-\[right_2rem_top\] {
+  background-position: right 2rem top;
+}
+
+.bg-\[right_4rem_top\] {
+  background-position: right 4rem top;
+}
+
+.bg-\[left_4rem_top\] {
+  background-position: left 4rem top;
+}
+
+.bg-\[left_7rem_top\] {
+  background-position: left 7rem top;
+}
+
+.bg-\[left_14rem_top\] {
+  background-position: left 14rem top;
+}
+
+.bg-\[left_14rem_top_-4rem\] {
+  background-position: left 14rem top -4rem;
+}
+
+.bg-\[left_12rem_top_-4rem\] {
+  background-position: left 12rem top -4rem;
+}
+
+.bg-\[left_12rem_top_-3rem\] {
+  background-position: left 12rem top -3rem;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-10 {
@@ -851,6 +953,46 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.\[background-image\:url\(\'jhex\.jpg\'\)\2c url\(\'land2\.jpg\'\)\] {
+  background-image: url('jhex.jpg'),url('land2.jpg');
+}
+
+.\[background-position\:top_left\2c bottom_right\] {
+  background-position: top left,bottom right;
+}
+
+.\[background-size\:25px\2c 25px\] {
+  background-size: 25px,25px;
+}
+
+.\[background-image\:url\(\'\'\)\2c url\(\'land2\.jpg\'\)\] {
+  background-image: url(''),url('land2.jpg');
+}
+
+.\[background-image\:url\(\'\/image\'\)\2c url\(\'land2\.jpg\'\)\] {
+  background-image: url('/image'),url('land2.jpg');
+}
+
+.\[background-image\:url\(\'\/images\'\)\2c url\(\'land2\.jpg\'\)\] {
+  background-image: url('/images'),url('land2.jpg');
+}
+
+.\[background-image\:url\(\'\/images\/bg-\'\)\2c url\(\'land2\.jpg\'\)\] {
+  background-image: url('/images/bg-'),url('land2.jpg');
+}
+
+.\[background-image\:url\(\'\/images\/bg-top\.svg\'\)\2c url\(\'land2\.jpg\'\)\] {
+  background-image: url('/images/bg-top.svg'),url('land2.jpg');
+}
+
+.\[background-image\:url\(\'\/images\/bg-top\.svg\'\)\2c url\(\'\/images\/bg-top\.svg\'\)\] {
+  background-image: url('/images/bg-top.svg'),url('/images/bg-top.svg');
+}
+
+.\[background-image\:url\(\'\/images\/bg-top\.svg\'\)\2c url\(\'\/images\/bg-bottom\.svg\'\)\] {
+  background-image: url('/images/bg-top.svg'),url('/images/bg-bottom.svg');
 }
 
 .after\:absolute::after {
@@ -972,5 +1114,13 @@ video {
 
   .lg\:gap-0 {
     gap: 0px;
+  }
+
+  .lg\:bg-bottom-pattern {
+    background-image: url('/images/bg-bottom.svg');
+  }
+
+  .lg\:bg-right-top {
+    background-position: right top;
   }
 }

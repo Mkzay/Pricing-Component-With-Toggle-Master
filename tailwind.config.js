@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./*.html", "./*.js"],
   theme: {
     extend: {
+      backgroundImage: {
+        'top-pattern': "url('/images/bg-top.svg')",
+        'bottom-pattern': "url('/images/bg-bottom.svg')"
+      },
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif']
       },
